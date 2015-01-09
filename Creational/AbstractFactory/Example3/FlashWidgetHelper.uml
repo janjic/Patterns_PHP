@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\FlashWidgetHelper</OriginalElement>
+  <nodes>
+    <node x="178.0" y="198.0">\FlashWidgetHelper</node>
+    <node x="-14.0" y="198.0">\JavascriptWidgetHelper</node>
+    <node x="82.0" y="97.0">\WidgetHelper</node>
+    <node x="396.0" y="1.0">\FlashHelperFactory</node>
+    <node x="191.0" y="1.0">\JavascriptHelperFactory</node>
+    <node x="-14.0" y="1.0">\RandomHelperFactory</node>
+    <node x="189.5" y="-100.0">\WidgetHelperAbstractFactory</node>
+    <node x="-14.0" y="294.0">\LoginPage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\FlashWidgetHelper" target="\WidgetHelper">
+      <point x="0.0" y="-25.5" />
+      <point x="264.0" y="173.0" />
+      <point x="211.0" y="173.0" />
+      <point x="43.0" y="25.5" />
+    </edge>
+    <edge source="\JavascriptHelperFactory" target="\WidgetHelperAbstractFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="\RandomHelperFactory" target="\WidgetHelperAbstractFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="78.5" y="-24.0" />
+      <point x="220.83333333333334" y="-24.0" />
+      <point x="-62.66666666666666" y="25.5" />
+    </edge>
+    <edge source="\FlashHelperFactory" target="\WidgetHelperAbstractFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="488.5" y="-24.0" />
+      <point x="346.16666666666663" y="-24.0" />
+      <point x="62.66666666666663" y="25.5" />
+    </edge>
+    <edge source="\JavascriptWidgetHelper" target="\WidgetHelper">
+      <point x="0.0" y="-25.5" />
+      <point x="72.0" y="173.0" />
+      <point x="125.0" y="173.0" />
+      <point x="-43.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="240.5" y="167.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Client</OriginalElement>
+  <nodes>
+    <node x="-360.0" y="74.0">\IConnectInfo</node>
+    <node x="333.0" y="264.0">\Client</node>
+    <node x="461.0" y="-133.0">\ICleanData</node>
+    <node x="166.0" y="45.0">\CleanupAdapter</node>
+    <node x="114.0" y="264.0">\CreateTable</node>
+    <node x="-134.0" y="-10.0">\PlainDataEntry</node>
+    <node x="395.0" y="-10.0">\CleanDataEntry</node>
+    <node x="-371.0" y="282.0">\UniversalConnect</node>
+    <node x="69.5" y="-133.0">\IDataEntry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\CleanupAdapter" target="\IDataEntry">
+      <point x="0.0" y="-59.5" />
+      <point x="258.0" y="-35.0" />
+      <point x="163.25" y="-35.0" />
+      <point x="31.25" y="36.5" />
+    </edge>
+    <edge source="\UniversalConnect" target="\IConnectInfo">
+      <point x="0.0" y="-81.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="\PlainDataEntry" target="\IDataEntry">
+      <point x="0.0" y="-114.5" />
+      <point x="6.0" y="-35.0" />
+      <point x="100.75" y="-35.0" />
+      <point x="-31.25" y="36.5" />
+    </edge>
+    <edge source="\CleanDataEntry" target="\ICleanData">
+      <point x="0.0" y="-114.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="141.5" y="167.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

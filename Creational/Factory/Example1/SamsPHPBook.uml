@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\SamsPHPBook</OriginalElement>
+  <nodes>
+    <node x="313.5" y="11.0">\AbstractPHPBook</node>
+    <node x="299.5" y="-112.0">\AbstractBook</node>
+    <node x="273.0" y="112.0">\OReillyPHPBook</node>
+    <node x="-223.75" y="-100.0">\AbstractFactoryMethod</node>
+    <node x="-115.0" y="1.0">\SamsFactoryMethod</node>
+    <node x="500.0" y="123.0">\SamsPHPBook</node>
+    <node x="66.0" y="123.0">\VisualQuickstartPHPBook</node>
+    <node x="-285.0" y="1.0">\OReillyFactoryMethod</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\SamsFactoryMethod" target="\AbstractFactoryMethod">
+      <point x="0.0" y="-37.0" />
+      <point x="-44.5" y="-24.0" />
+      <point x="-79.0" y="-24.0" />
+      <point x="48.25" y="25.5" />
+    </edge>
+    <edge source="\OReillyPHPBook" target="\AbstractPHPBook">
+      <point x="0.0" y="-81.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="\OReillyFactoryMethod" target="\AbstractFactoryMethod">
+      <point x="0.0" y="-37.0" />
+      <point x="-210.0" y="-24.0" />
+      <point x="-175.5" y="-24.0" />
+      <point x="-48.25" y="25.5" />
+    </edge>
+    <edge source="\VisualQuickstartPHPBook" target="\AbstractPHPBook">
+      <point x="0.0" y="-70.5" />
+      <point x="159.5" y="87.0" />
+      <point x="334.5" y="87.0" />
+      <point x="-42.0" y="25.5" />
+    </edge>
+    <edge source="\SamsPHPBook" target="\AbstractPHPBook">
+      <point x="0.0" y="-70.5" />
+      <point x="593.5" y="87.0" />
+      <point x="418.5" y="87.0" />
+      <point x="42.0" y="25.5" />
+    </edge>
+    <edge source="\AbstractPHPBook" target="\AbstractBook">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="218.0" y="183.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

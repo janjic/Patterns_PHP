@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Printer</OriginalElement>
+  <nodes>
+    <node x="36.0" y="-47.0">\Collection</node>
+    <node x="18.0" y="98.0">\ArrayAdapter</node>
+    <node x="-346.0" y="-67.0">\Printer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\ArrayAdapter" target="\Collection">
+      <point x="0.0" y="-81.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="51.0" y="91.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

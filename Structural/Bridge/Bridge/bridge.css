@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Bridge
+BF0426 (red) ; FADABE (cream) ; 223918 (dark green); CFBDA4 (tan); 594539 (brown) */
+
+body
+{
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    background-color: #FADABE;
+    color: #BF0426 ;
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+h2
+{
+    color: #223918;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color:#CFBDA4;
+    width:500px;
+    padding-left: 1em;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+h3
+{
+    color: #594539;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

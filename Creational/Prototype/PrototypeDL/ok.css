@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*C9B39B,370300,6A685B,EBDBC2,A0866F
+*/
+
+body
+{
+    background-color: #EBDBC2;
+    font-family: verdana, helvetical, arial, sans-serif;
+    color:#370300;
+}
+
+h1
+{
+    font-family: big caslon, copperplate, baskerville, serif;
+    color: #C9B39B;
+    background-color: #370300;
+    text-align: center;
+}

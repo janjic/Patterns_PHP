@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\AbstractBookFactory</OriginalElement>
+  <nodes>
+    <node x="660.0" y="306.0">\SamsBookFactory</node>
+    <node x="266.0" y="-1.0">\AbstractPHPBook</node>
+    <node x="334.0" y="100.0">\OReillyPHPBook</node>
+    <node x="54.875" y="-124.0">\AbstractBook</node>
+    <node x="568.5" y="183.0">\AbstractBookFactory</node>
+    <node x="127.0" y="111.0">\SamsPHPBook</node>
+    <node x="-287.0" y="111.0">\OReillyMySQLBook</node>
+    <node x="-80.0" y="111.0">\SamsMySQLBook</node>
+    <node x="489.0" y="306.0">\OReillyBookFactory</node>
+    <node x="-160.5" y="-1.0">\AbstractMySQLBook</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\OReillyMySQLBook" target="\AbstractMySQLBook">
+      <point x="0.0" y="-70.5" />
+      <point x="-193.5" y="75.0" />
+      <point x="-125.25" y="75.0" />
+      <point x="-35.25" y="25.5" />
+    </edge>
+    <edge source="\OReillyBookFactory" target="\AbstractBookFactory">
+      <point x="0.0" y="-48.0" />
+      <point x="564.5" y="281.0" />
+      <point x="609.25" y="281.0" />
+      <point x="-40.75" y="36.5" />
+    </edge>
+    <edge source="\SamsMySQLBook" target="\AbstractMySQLBook">
+      <point x="0.0" y="-70.5" />
+      <point x="13.5" y="75.0" />
+      <point x="-54.75" y="75.0" />
+      <point x="35.25" y="25.5" />
+    </edge>
+    <edge source="\OReillyPHPBook" target="\AbstractPHPBook">
+      <point x="0.0" y="-81.5" />
+      <point x="437.5" y="75.0" />
+      <point x="360.5" y="75.0" />
+      <point x="31.5" y="25.5" />
+    </edge>
+    <edge source="\AbstractMySQLBook" target="\AbstractBook">
+      <point x="0.0" y="-25.5" />
+      <point x="-90.0" y="-26.0" />
+      <point x="89.375" y="-26.0" />
+      <point x="-34.5" y="36.5" />
+    </edge>
+    <edge source="\SamsPHPBook" target="\AbstractPHPBook">
+      <point x="0.0" y="-70.5" />
+      <point x="220.5" y="75.0" />
+      <point x="297.5" y="75.0" />
+      <point x="-31.5" y="25.5" />
+    </edge>
+    <edge source="\AbstractPHPBook" target="\AbstractBook">
+      <point x="0.0" y="-25.5" />
+      <point x="329.0" y="-26.0" />
+      <point x="158.375" y="-26.0" />
+      <point x="34.5" y="36.5" />
+    </edge>
+    <edge source="\SamsBookFactory" target="\AbstractBookFactory">
+      <point x="0.0" y="-48.0" />
+      <point x="735.5" y="281.0" />
+      <point x="690.75" y="281.0" />
+      <point x="40.75" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="274.0" y="170.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

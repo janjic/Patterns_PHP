@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color:#DCDDD8;
+	color:#354B5E;
+}
+
+h1
+{
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:#D74B4B;
+}
+
+h2
+{
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:#fff;
+	background-color:#475F77;
+	text-indent:1em;
+	width:300px;
+}
+h2.long
+{
+	width:520px;
+	margin-left: 10px;
+}
+img
+{
+	margin:auto;
+}
+iframe
+{
+	background-color:#354B5E;
+}

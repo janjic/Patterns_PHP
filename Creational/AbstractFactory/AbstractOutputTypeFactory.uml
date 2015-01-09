@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\AbstractOutputTypeFactory</OriginalElement>
+  <nodes>
+    <node x="301.0" y="263.0">\WebUglyOutput</node>
+    <node x="-57.0" y="263.0">\WebPrettyOutput</node>
+    <node x="-48.0" y="44.0">\WebOutputTypeFactory</node>
+    <node x="-227.0" y="263.0">\DataPrettyOutput</node>
+    <node x="-142.0" y="162.0">\AbstractPrettyOutput</node>
+    <node x="219.5" y="162.0">\AbstractUglyOutput</node>
+    <node x="-227.0" y="44.0">\DataOutputTypeFactory</node>
+    <node x="-147.5" y="-79.0">\AbstractOutputTypeFactory</node>
+    <node x="138.0" y="263.0">\DataUglyOutput</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\WebOutputTypeFactory" target="\AbstractOutputTypeFactory">
+      <point x="0.0" y="-36.5" />
+      <point x="31.5" y="19.0" />
+      <point x="-13.25" y="19.0" />
+      <point x="44.75" y="36.5" />
+    </edge>
+    <edge source="\WebUglyOutput" target="\AbstractUglyOutput">
+      <point x="0.0" y="-25.5" />
+      <point x="372.5" y="238.0" />
+      <point x="326.75" y="238.0" />
+      <point x="35.75" y="25.5" />
+    </edge>
+    <edge source="\DataOutputTypeFactory" target="\AbstractOutputTypeFactory">
+      <point x="0.0" y="-36.5" />
+      <point x="-147.5" y="19.0" />
+      <point x="-102.75" y="19.0" />
+      <point x="-44.75" y="36.5" />
+    </edge>
+    <edge source="\DataUglyOutput" target="\AbstractUglyOutput">
+      <point x="0.0" y="-25.5" />
+      <point x="209.5" y="238.0" />
+      <point x="255.25" y="238.0" />
+      <point x="-35.75" y="25.5" />
+    </edge>
+    <edge source="\WebPrettyOutput" target="\AbstractPrettyOutput">
+      <point x="0.0" y="-25.5" />
+      <point x="18.0" y="238.0" />
+      <point x="-29.5" y="238.0" />
+      <point x="37.5" y="25.5" />
+    </edge>
+    <edge source="\DataPrettyOutput" target="\AbstractPrettyOutput">
+      <point x="0.0" y="-25.5" />
+      <point x="-152.0" y="238.0" />
+      <point x="-104.5" y="238.0" />
+      <point x="-37.5" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="169.0" y="207.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

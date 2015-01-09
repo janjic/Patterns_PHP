@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\LoginPage</OriginalElement>
+  <nodes>
+    <node x="-10.0" y="-120.0">\BlinkingWidget</node>
+    <node x="43.0" y="145.0">\ObjectTag</node>
+    <node x="75.0" y="-18.5">\JavascriptWidget</node>
+    <node x="-155.0" y="145.0">\LoginPage</node>
+    <node x="-155.0" y="-41.0">\FlashWidget</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\JavascriptWidget" target="\BlinkingWidget">
+      <point x="0.0" y="-48.0" />
+      <point x="143.0" y="-66.0" />
+      <point x="74.75" y="-66.0" />
+      <point x="28.25" y="14.5" />
+    </edge>
+    <edge source="\FlashWidget" target="\BlinkingWidget">
+      <point x="0.0" y="-70.5" />
+      <point x="-50.0" y="-66.0" />
+      <point x="18.25" y="-66.0" />
+      <point x="-28.25" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="119.0" y="128.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

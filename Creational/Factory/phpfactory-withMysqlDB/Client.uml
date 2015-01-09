@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Client</OriginalElement>
+  <nodes>
+    <node x="-372.0" y="-113.0">\Creator</node>
+    <node x="-126.0" y="-113.0">\Client</node>
+    <node x="75.5" y="0.0">\Product</node>
+    <node x="141.0" y="101.0">\GraphicProduct</node>
+    <node x="-372.0" y="-12.0">\ConcreteCreator</node>
+    <node x="0.0" y="112.0">\TextProduct</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\TextProduct" target="\Product">
+      <point x="0.0" y="-25.5" />
+      <point x="60.5" y="76.0" />
+      <point x="105.75" y="76.0" />
+      <point x="-30.25" y="25.5" />
+    </edge>
+    <edge source="\GraphicProduct" target="\Product">
+      <point x="0.0" y="-36.5" />
+      <point x="211.5" y="76.0" />
+      <point x="166.25" y="76.0" />
+      <point x="30.25" y="25.5" />
+    </edge>
+    <edge source="\ConcreteCreator" target="\Creator">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="115.5" y="130.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Constants</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+/*India 3 from Kuler */
+/* 243456 (dk blue), 6A2118 (dk red), 506021 (darkish green), 9DAF63 (spring lt green), C6B5A3 (lt grey sand)   */
+h1
+{
+	font-family:"Arial Black",Impact, Haettenschweiler, "Franklin Gothic Bold", sans-serif;
+	background-color:#9DAF63;
+	color:#243456;
+	width:404px;
+	text-align:center;
+}
+header
+{
+	font-family:"Arial Black",Impact, Haettenschweiler, "Franklin Gothic Bold", sans-serif;
+	font-size:18px;
+	background-color:#243456;
+	color:#C6B5A3;
+	width:394px;
+	padding-left:10px;
+}
+
+body
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color:#C6B5A3;
+	color:#506021;
+}
+
+figcaption
+{
+	font-family:"Arial Black",Impact, Haettenschweiler, "Franklin Gothic Bold", sans-serif;
+	font-size:14px;
+	color:#6A2118;
+	margin-left:10px;
+}

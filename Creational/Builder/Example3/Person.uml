@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Person</OriginalElement>
+  <nodes>
+    <node x="332.5" y="-205.0">\PersonBuilderInterface</node>
+    <node x="429.0" y="-60.0">\EmployedFemaleBuilder</node>
+    <node x="310.0" y="157.0">\Person</node>
+    <node x="156.0" y="-189.0">\PersonDirector</node>
+    <node x="637.0" y="-60.0">\UnemployedMaleBuilder</node>
+    <node x="221.0" y="-60.0">\UnemployedFemaleBuilder</node>
+    <node x="13.0" y="-60.0">\EmployedMaleBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\UnemployedMaleBuilder" target="\PersonBuilderInterface">
+      <point x="0.0" y="-70.5" />
+      <point x="731.0" y="-90.0" />
+      <point x="483.875" y="-90.0" />
+      <point x="64.875" y="47.5" />
+    </edge>
+    <edge source="\EmployedMaleBuilder" target="\PersonBuilderInterface">
+      <point x="0.0" y="-70.5" />
+      <point x="107.0" y="-90.0" />
+      <point x="354.125" y="-90.0" />
+      <point x="-64.875" y="47.5" />
+    </edge>
+    <edge source="\EmployedFemaleBuilder" target="\PersonBuilderInterface">
+      <point x="0.0" y="-70.5" />
+      <point x="523.0" y="-80.0" />
+      <point x="440.625" y="-80.0" />
+      <point x="21.625" y="47.5" />
+    </edge>
+    <edge source="\UnemployedFemaleBuilder" target="\PersonBuilderInterface">
+      <point x="0.0" y="-70.5" />
+      <point x="315.0" y="-80.0" />
+      <point x="397.375" y="-80.0" />
+      <point x="-21.625" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="353.0" y="91.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

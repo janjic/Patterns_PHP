@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\RenderPDFTemplate</OriginalElement>
+  <nodes>
+    <node x="166.0" y="-150.0">\RenderTemplateInterface</node>
+    <node x="-257.0" y="51.0">\RenderPDFTemplate</node>
+    <node x="275.0" y="18.0">\RenderHTMLTemplate</node>
+    <node x="-256.0" y="-113.0">\PDFTemplateInterface</node>
+    <node x="35.0" y="-5.0">\PDFTemplateAdapter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\RenderPDFTemplate" target="\PDFTemplateInterface">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="\RenderHTMLTemplate" target="\RenderTemplateInterface">
+      <point x="0.0" y="-47.5" />
+      <point x="363.0" y="-30.0" />
+      <point x="298.0" y="-30.0" />
+      <point x="44.0" y="47.5" />
+    </edge>
+    <edge source="\PDFTemplateAdapter" target="\RenderTemplateInterface">
+      <point x="0.0" y="-70.5" />
+      <point x="145.0" y="-30.0" />
+      <point x="210.0" y="-30.0" />
+      <point x="-44.0" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="158.5" y="130.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

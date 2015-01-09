@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Circle</OriginalElement>
+  <nodes>
+    <node x="246.5" y="-41.0">\Creator</node>
+    <node x="57.0" y="363.0">\Client</node>
+    <node x="-164.0" y="-5.0">\Product</node>
+    <node x="-164.0" y="96.0">\Circle</node>
+    <node x="-8.0" y="96.0">\Square</node>
+    <node x="-320.0" y="96.0">\Triangle</node>
+    <node x="228.0" y="83.0">\ConcreteCreator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Circle" target="\Product">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="\Triangle" target="\Product">
+      <point x="0.0" y="-25.5" />
+      <point x="-252.0" y="71.0" />
+      <point x="-141.33333333333334" y="71.0" />
+      <point x="-45.33333333333334" y="25.5" />
+    </edge>
+    <edge source="\Square" target="\Product">
+      <point x="0.0" y="-25.5" />
+      <point x="60.0" y="71.0" />
+      <point x="-50.66666666666663" y="71.0" />
+      <point x="45.33333333333334" y="25.5" />
+    </edge>
+    <edge source="\ConcreteCreator" target="\Creator">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="122.5" y="130.5" />
+  <SelectedNodes>
+    <node>\ConcreteCreator</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

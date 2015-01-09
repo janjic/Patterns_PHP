@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color:#7C7B79;
+	color:#F8FFFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin-left:20px;
+}
+h1 {
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#585858;
+}
+h2 {
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#9E2C2C;
+}
+
+a {
+	color:#9E2C2C;
+	text-decoration:none;
+	background-color:#F8FFFF;
+}
+	
+
+h3 {
+	color:#000;
+	font-size:11pt;
+}
+	#graphicDisplay {
+	display:table;
+        text-align:center;
+}
+#fig {
+	display:table-cell;
+	text-align:center;
+	width:150px;
+}
+aside {
+	display:table-cell;
+	text-align:center;
+	width:150px;
+}

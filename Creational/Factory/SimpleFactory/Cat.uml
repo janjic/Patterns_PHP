@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Cat</OriginalElement>
+  <nodes>
+    <node x="55.0" y="0.0">\AnimalAbstract</node>
+    <node x="130.0" y="124.0">\Cat</node>
+    <node x="-300.0" y="6.0">\AnimalFactory</node>
+    <node x="0.0" y="124.0">\Dog</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Dog" target="\AnimalAbstract">
+      <point x="0.0" y="-25.5" />
+      <point x="55.0" y="99.0" />
+      <point x="87.5" y="99.0" />
+      <point x="-32.5" y="37.0" />
+    </edge>
+    <edge source="\Cat" target="\AnimalAbstract">
+      <point x="0.0" y="-25.5" />
+      <point x="185.0" y="99.0" />
+      <point x="152.5" y="99.0" />
+      <point x="32.5" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="62.0" y="91.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

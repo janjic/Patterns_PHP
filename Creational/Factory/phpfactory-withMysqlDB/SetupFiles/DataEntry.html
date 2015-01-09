@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css">
+body {
+	background-color:#7C7B79;
+	color:#9E2C2C;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin-left:20px;
+}
+h1, h2 {
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#585858;
+}
+h3 {
+	color:#000;
+}
+#dataEntry {
+	display:table;
+}
+#uinfo {
+	display:table-cell;
+	width:200px;
+}
+aside {
+	display:table-cell;
+	width:200px;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Data Entry</title>
+</head>
+<body>
+<header>
+  <h1>PHP Dreamweaver Group</h1>
+</header>
+<img src="acp_logo.gif">
+<h2>Enter Data</h2>
+<form action="DataEntry.php" method="post">
+  <div id="dataEntry">
+  <div id="uinfo">
+    <section>
+      <h3>Name<br/>
+      <input type="text" name="uname"><br/>
+      Expertise<br/>
+      <input type="text" name="expert"><br/>
+      Location<br/>
+      <input type="text" name="place">
+      </h3>
+    </section>
+  </div>
+  <aside>
+    <h3>Picture URL
+    <input type="text" name="pix">
+    <p/>
+    <input type="submit" value="Send Data to MySQL Database">
+    </h3>
+  </aside>
+  </div>
+</form>
+</body>
+</html>
